@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
 
 func main() {
 	fmt.Println("Hello, World!")
@@ -11,4 +15,6 @@ func main() {
 	}
 
 	fmt.Println(sum)
+
+	fmt.Println(quote.Go())
 }
