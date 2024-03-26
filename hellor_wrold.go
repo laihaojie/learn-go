@@ -18,5 +18,5 @@ func main() {
 
 	fmt.Println(quote.Go())
 
-	fmt.Printf(Hello("world"))
+	fmt.Println(Hello("world"))
 }
