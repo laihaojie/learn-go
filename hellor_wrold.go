@@ -19,4 +19,12 @@ func main() {
 	fmt.Println(quote.Go())
 
 	fmt.Println(Hello("world"))
+
+	var message string = "Hello, World!"
+
+	fmt.Println(message)
+
+	message1 := "Hello, World!"
+
+	fmt.Println(message1)
 }
