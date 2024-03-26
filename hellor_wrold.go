@@ -17,4 +17,6 @@ func main() {
 	fmt.Println(sum)
 
 	fmt.Println(quote.Go())
+
+	fmt.Printf(Hello("world"))
 }
